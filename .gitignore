@@ -1,0 +1,25 @@
+# Dependencies
+node_modules
+
+# Nuxt build output
+.nuxt
+.output
+.nitro
+.cache
+dist
+
+# Lokale data en geheimen
+.data
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / OS
+.idea
+.vscode
+.DS_Store
+Thumbs.db
