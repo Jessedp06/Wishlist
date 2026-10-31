@@ -24,6 +24,17 @@ html::-webkit-scrollbar {
     display: none;
 }
 
+input:-webkit-autofill,
+input:-webkit-autofill:hover {
+    -webkit-text-fill-color: var(--background) !important;
+    -webkit-box-shadow: 0 0 0 1000px var(--muted) inset !important;
+}
+
+input:-webkit-autofill:focus {
+    -webkit-text-fill-color: var(--background) !important;
+    -webkit-box-shadow: 0 0 0 1000px var(--text) inset !important;
+}
+
 
 body {
     margin: 0;
